@@ -1,1 +1,1 @@
-# oss-leaderboard
+# GSOC-leaderboard
