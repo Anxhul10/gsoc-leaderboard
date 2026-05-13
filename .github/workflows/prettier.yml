@@ -15,7 +15,7 @@ jobs:
 
       - run: yarn
 
-      - name: Auto-fix formatting
+      - name: Check code formatting with Prettier
         run: |
           yarn prettier . --check
 
