@@ -1,7 +1,8 @@
 name: autofix.ci
 on:
   push:
-permissions: {}
+permissions:
+  contents: write
 jobs:
   prettier:
     runs-on: ubuntu-latest
