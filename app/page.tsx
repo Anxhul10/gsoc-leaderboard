@@ -1,9 +1,7 @@
-import Image from "next/image";
+import { default as Navbar } from "@/components/Navbar";
 
-export default function Home() {
+export default function Page() {
   return (
-    <div>
-      Main file
-    </div>
-  );
+    <Navbar />
+  )
 }
