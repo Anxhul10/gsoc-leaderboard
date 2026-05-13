@@ -13,7 +13,10 @@ jobs:
       - run: |
           yarn
           yarn prettier . --check
-          echo $?
+          if [ $? -eq 0 ]; then
+            exit 0
+          fi
+          yarn prettier . --write
       - uses: autofix-ci/action@v1
         with:
           commit-message: "Apply Prettier format"
