@@ -14,7 +14,7 @@ const eslintConfig = defineConfig([
     "next-env.d.ts",
     ".yarn/**",
     "node_modules/**",
-    ".github/**"
+    ".github/**",
   ]),
 ]);
 
