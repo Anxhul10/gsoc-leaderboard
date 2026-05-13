@@ -3,6 +3,7 @@ on:
   push:
 permissions:
   contents: write
+  actions: write
 jobs:
   prettier:
     runs-on: ubuntu-latest
