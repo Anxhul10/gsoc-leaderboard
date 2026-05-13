@@ -1,11 +1,8 @@
-name: autofix.ci
+name: prettier
 
 on:
   push:
 
-permissions:
-  contents: write
-  actions: write
 
 jobs:
   prettier:
@@ -20,12 +17,11 @@ jobs:
 
       - name: Auto-fix formatting
         run: |
-          yarn prettier . --check || true
-          status=$?
+          yarn prettier . --check
 
           if [ $status -eq 1 ]; then
-            echo "Formatting issues found. Running prettier --write"
-            yarn prettier . --write
+            echo "Formatting issues found"
+            exit 1
 
           elif [ $status -eq 2 ]; then
             echo "Prettier error occurred"
@@ -35,7 +31,3 @@ jobs:
             echo "No formatting issues. Skipping autofix."
             exit 0
           fi
-
-      - uses: autofix-ci/action@v1
-        with:
-          commit-message: "Apply Prettier format"
