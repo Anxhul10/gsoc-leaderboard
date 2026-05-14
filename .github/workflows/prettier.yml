@@ -1,0 +1,33 @@
+name: prettier
+
+on:
+  push:
+
+
+jobs:
+  prettier:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+
+      - run: yarn
+
+      - name: Check code formatting with Prettier
+        run: |
+          yarn prettier . --check
+
+          if [ $status -eq 1 ]; then
+            echo "Formatting issues found"
+            exit 1
+
+          elif [ $status -eq 2 ]; then
+            echo "Prettier error occurred"
+            exit 1
+
+          else
+            echo "No formatting issues. Skipping autofix."
+            exit 0
+          fi

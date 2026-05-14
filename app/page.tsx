@@ -1,9 +1,7 @@
-import Image from "next/image";
+"use client";
+import { default as Navbar } from "@/components/Navbar";
+import "./globals.css";
 
-export default function Home() {
-  return (
-    <div>
-      Main file
-    </div>
-  );
+export default function Page() {
+  return <Navbar />;
 }
