@@ -7,8 +7,8 @@ export default function Navbar() {
     <div className="Navbar">
       <div className="Navbar-left">
         <Image
-          src="/icon0.svg"
-          alt="GitHub"
+          src="/icon1.svg"
+          alt="main logo"
           loading="eager"
           width={50}
           height={50}
@@ -17,7 +17,7 @@ export default function Navbar() {
       </div>
       <TextField
         id="outlined-basic"
-        label="Search"
+        label="Search organization"
         variant="outlined"
         size="small"
         sx={{
@@ -26,8 +26,8 @@ export default function Navbar() {
       />
       <div className="Navbar-right">
         <Image
-          src="/icon1.svg"
-          alt="GitHub"
+          src="/icon0.svg"
+          alt="github logo"
           loading="eager"
           width={30}
           height={30}
