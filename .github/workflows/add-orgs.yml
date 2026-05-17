@@ -31,4 +31,4 @@ jobs:
           cache: ${{ steps.detect-package-manager.outputs.manager }}
       - name: run get orgs script
         run: |
-          node .github/workflows/getOrgs.js
+          node .github/scripts/get-orgs.js
