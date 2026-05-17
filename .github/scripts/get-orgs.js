@@ -13,14 +13,9 @@ async function getOrgs() {
     }
 }
 
-const filename = '2026.json';
-const path = './data/'+filename;
-fs.writeFile(
-    path,
-    JSON.stringify(await getOrgs(), null, 2),
-    function (err) {
-        if (err) {
-            return console.error(err);
-        }
-    }
-);
+async function main() {
+    const orgs = await getOrgs();
+
+    console.log(JSON.stringify(orgs, null, 2));
+}
+await main();

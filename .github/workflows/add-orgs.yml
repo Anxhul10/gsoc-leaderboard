@@ -31,4 +31,13 @@ jobs:
           cache: ${{ steps.detect-package-manager.outputs.manager }}
       - name: run get orgs script
         run: |
-          node .github/scripts/get-orgs.js
+          node .github/scripts/get-orgs.js > data/2026.json
+
+          git config user.name "GH Actions Workflow"
+          git config user.email "gha@runner"
+
+          
+          git add data/2026.json
+
+          git commit -m "latest ci nightly data"
+          git push
