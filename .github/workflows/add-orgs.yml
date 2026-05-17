@@ -39,5 +39,5 @@ jobs:
           
           git add data/2026.json
 
-          git commit -m "latest ci nightly data"
+          git commit -m "add latest ci orgs data"
           git push
