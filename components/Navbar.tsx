@@ -1,3 +1,4 @@
+"use client";
 import TextField from "@mui/material/TextField";
 import Image from "next/image";
 import { redirect } from "next/navigation";
