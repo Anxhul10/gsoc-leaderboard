@@ -1,8 +1,10 @@
 .Navbar {
   display: flex;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: white;
   justify-content: space-between;
-  margin-right: 2rem;
-  margin-left: 2rem;
 }
 .Navbar-left {
   display: flex;
