@@ -32,7 +32,6 @@
     "typescript": "^5"
   },
   "engines": {
-    "node": "20.20.2",
     "yarn": "1.22.22"
   }
 }
