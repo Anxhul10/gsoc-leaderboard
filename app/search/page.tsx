@@ -24,7 +24,7 @@ export default async function Page({
   return (
     <>
       <h2>
-        <i>Search results for "{q}"</i>
+        <i>Search results for `{q}`</i>
       </h2>
 
       <div
