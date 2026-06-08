@@ -15,6 +15,7 @@ export default function Page() {
     >
       {data.map((org) => (
         <Org
+          slug={org.slug}
           key={org.slug}
           name={org.name}
           image={org.logo_url}

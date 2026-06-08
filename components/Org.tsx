@@ -1,3 +1,5 @@
+"use client";
+import Link from "next/link";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
@@ -8,14 +10,16 @@ export default function Org({
   name,
   image,
   description,
+  slug,
 }: {
   name: string;
   image: string;
   description: string;
+  slug: string;
 }) {
   return (
     <Card sx={{ maxWidth: 345 }}>
-      <CardActionArea>
+      <CardActionArea component={Link} href={`/org/${slug}`}>
         <CardMedia
           component="img"
           image={image}

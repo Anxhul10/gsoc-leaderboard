@@ -40,6 +40,7 @@ export default async function Page({
         {filteredData.map((org) => (
           <Org
             key={org.slug}
+            slug={org.slug}
             name={org.name}
             image={org.logo_url}
             description={org.description}
