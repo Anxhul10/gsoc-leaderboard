@@ -1,8 +1,20 @@
+"use client";
 import TextField from "@mui/material/TextField";
 import Image from "next/image";
-import { redirect } from "next/navigation";
+import { useRouter } from "next/navigation";
+import { useState } from "react";
+import { useDebouncedCallback } from "use-debounce";
 
 export default function Navbar() {
+  const router = useRouter();
+  const [query, setQuery] = useState("");
+  const handleSearch = useDebouncedCallback((value: string) => {
+    if (value) {
+      router.replace(`/search?q=${encodeURIComponent(value)}`);
+    } else {
+      router.replace("/");
+    }
+  }, 300);
   return (
     <div className="Navbar">
       <div className="Navbar-left">
@@ -12,7 +24,7 @@ export default function Navbar() {
           loading="eager"
           width={50}
           height={50}
-          onClick={() => redirect("/")}
+          onClick={() => router.push("/")}
         />
       </div>
       <TextField
@@ -20,6 +32,9 @@ export default function Navbar() {
         label="Search organization"
         variant="outlined"
         size="small"
+        onChange={(e) => {
+          handleSearch(e.target.value);
+        }}
         sx={{
           width: 1 / 2,
         }}
@@ -32,7 +47,7 @@ export default function Navbar() {
           width={30}
           height={30}
           onClick={() =>
-            redirect("https://github.com/Anxhul10/gsoc-leaderboard")
+            router.push("https://github.com/Anxhul10/gsoc-leaderboard")
           }
         />
       </div>
