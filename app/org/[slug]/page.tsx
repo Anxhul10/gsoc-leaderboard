@@ -1,6 +1,6 @@
 import fs from "fs/promises";
 import path from "path";
-
+import Link from "next/link";
 import {
   Paper,
   Table,
@@ -94,8 +94,20 @@ export default async function Page({
                         : index + 1}
                 </TableCell>
 
-                <TableCell>{user.username}</TableCell>
-
+                <TableCell>
+                  <Link
+                    href={`https://github.com/${user.username.replace("[bot]", "")}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    style={{
+                      textDecoration: "none",
+                      color: "#1976d2",
+                      fontWeight: 500,
+                    }}
+                  >
+                    {user.username}
+                  </Link>
+                </TableCell>
                 <TableCell align="right">{user.totalPRs}</TableCell>
 
                 <TableCell align="right">{user.mergedPRs}</TableCell>
