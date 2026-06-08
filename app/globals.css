@@ -5,6 +5,7 @@
   z-index: 1000;
   background: white;
   justify-content: space-between;
+  padding-top: 0.5rem;
 }
 .Navbar-left {
   display: flex;
