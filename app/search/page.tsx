@@ -1,6 +1,8 @@
 import data from "@/data/2026.json";
 import Org from "@/components/Org";
 
+export const dynamic = "force-dynamic";
+
 const normalize = (str: string) => str.toLowerCase().replace(/[^a-z0-9]/g, "");
 
 export default async function Page({
