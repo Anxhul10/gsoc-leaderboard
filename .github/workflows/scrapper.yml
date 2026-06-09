@@ -4,9 +4,9 @@ on:
   workflow_dispatch:
     inputs:
       job_type:
-        description: 'Select which job to execute'
+        description: "Select which job to execute"
         required: true
-        default: 'regular'
+        default: "regular"
         type: choice
         options:
           - regular
@@ -15,26 +15,16 @@ on:
 jobs:
   scrape:
     runs-on: ubuntu-latest
-    
-    # Grants permission to push code changes back to the branch
+
     permissions:
       contents: write
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: "20"
+      - uses: actions/setup-node@v4
 
-      - name: Enable Corepack
-        run: |
-          corepack enable
-          corepack install
-      - name: Install dependencies
-        run: yarn install --immutable
+      - run: yarn
 
       - name: Run Scraper Script
         env:
@@ -46,14 +36,12 @@ jobs:
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          
-          # Stage all changes inside the data/contributions directory
+
           git add data/contributions/
-          
-          # Check if there are any changes staged, if yes, commit and push
+
           if ! git diff --cached --quiet; then
             git commit -m "chore: update contributor statistics [skip ci]"
-            git push origin HEAD:${{ github.ref }}
+            git push
           else
             echo "No changes detected. Skipping push."
           fi
