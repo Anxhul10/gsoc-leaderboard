@@ -2,8 +2,8 @@ import fs from "fs/promises";
 import path from "path";
 import Link from "next/link";
 import {
-  Avatar, // <-- Added Avatar import
-  Box, // <-- Added Box import for easy layout alignment
+  Avatar,
+  Box,
   Paper,
   Table,
   TableBody,
@@ -64,8 +64,37 @@ export default async function Page({
           {slug} Leaderboard
         </Typography>
 
-        <Typography color="error">
-          Source code platforms other than GitHub are not supported right now.
+        <Typography
+          variant="body2"
+          color="text.secondary"
+          sx={{ mb: 3, color: "error.main" }}
+        >
+          Unfortunately, gsoc-leaderboard currently supports only organizations
+          whose source code is hosted on GitHub. If you&apos;d like support for
+          another platform, or would like to help implement it, please{" "}
+          <Link
+            href="https://github.com/Anxhul10/gsoc-leaderboard/issues"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              color: "#1976d2",
+              fontWeight: 600,
+              textDecoration: "none",
+            }}
+          >
+            open an issue
+          </Link>{" "}
+          or submit a{" "}
+          <Link
+            href="https://github.com/Anxhul10/gsoc-leaderboard/pulls"
+            style={{
+              color: "#1976d2",
+              fontWeight: 600,
+              textDecoration: "none",
+            }}
+          >
+            pull request
+          </Link>
         </Typography>
       </div>
     );
