@@ -1,21 +1,27 @@
+"use client";
+
+import Alert from "@mui/material/Alert";
+
 export default function NotificationBanner({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
   return (
-    <div
-      style={{
+    <Alert
+      severity="info"
+      sx={{
         width: "100%",
-        backgroundColor: "#03fce7",
-        color: "#0c0b0b",
-        padding: "10px 20px",
-        textAlign: "center",
-        fontWeight: "bold",
-        boxSizing: "border-box",
+        borderRadius: 0,
+        justifyContent: "center",
+        "& .MuiAlert-message": {
+          width: "100%",
+          textAlign: "center",
+          fontWeight: 500,
+        },
       }}
     >
       {children}
-    </div>
+    </Alert>
   );
 }
