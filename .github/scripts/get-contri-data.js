@@ -1,5 +1,10 @@
-const TOKEN = "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";
-const OWNER = "RocketChat";
+import dotenv from "dotenv";
+
+dotenv.config();
+
+const TOKEN = process.env.GITHUB_TOKEN;
+
+const OWNER = "Anxhul10";
 
 const FROM = new Date("2026-01-01T00:00:00Z");
 const TO = new Date("2026-06-01T23:59:59Z");
