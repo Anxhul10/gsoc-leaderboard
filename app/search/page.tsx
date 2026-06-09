@@ -1,14 +1,15 @@
+"use client";
+
 import data from "@/data/2026.json";
 import Org from "@/components/Org";
+import { useSearchParams } from "next/navigation";
 
-const normalize = (str: string) => str.toLowerCase().replace(/[^a-z0-9]/g, "");
+const normalize = (str: string) =>
+  str.toLowerCase().replace(/[^a-z0-9]/g, "");
 
-export default async function Page({
-  searchParams,
-}: {
-  searchParams: Promise<{ q?: string }>;
-}) {
-  const { q = "" } = await searchParams;
+export default function Page() {
+  const searchParams = useSearchParams();
+  const q = searchParams.get("q") ?? "";
 
   const filteredData = data.filter((org) => {
     const search = normalize(q);
