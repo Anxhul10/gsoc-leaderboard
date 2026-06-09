@@ -1,0 +1,63 @@
+name: Run GSoC Leaderboard Scraper
+
+on:
+  workflow_dispatch:
+    inputs:
+      job_type:
+        description: 'Select which job to execute'
+        required: true
+        default: 'regular'
+        type: choice
+        options:
+          - regular
+          - apache
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    
+    # Grants permission to push code changes back to the branch
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'yarn' # Correctly caches yarn packages using yarn.lock
+
+      - name: Install dependencies
+        run: |
+          if [ -f yarn.lock ]; then
+            yarn install --frozen-lockfile
+          elif [ -f package.json ]; then
+            yarn install
+          else
+            yarn add dotenv
+          fi
+
+      - name: Run Scraper Script
+        env:
+          GITHUB_TOKEN: ${{ secrets.PERSONAL_GITHUB_TOKEN }}
+          JOB_TYPE: ${{ github.event.inputs.job_type }}
+        run: node .github/scripts/temp.js
+
+      - name: Commit and Push changes
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          
+          # Stage all changes inside the data/contributions directory
+          git add data/contributions/
+          
+          # Check if there are any changes staged, if yes, commit and push
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: update contributor statistics [skip ci]"
+            git push origin HEAD:${{ github.ref }}
+          else
+            echo "No changes detected. Skipping push."
+          fi
