@@ -33,8 +33,7 @@ export default function RootLayout({
       <body className="min-h-full flex flex-col">
         <Navbar />
         <NotificationBanner>
-          These leaderboard entries are updated every 6 hours. ⭐ If you find
-          this project useful,{" "}
+          These leaderboard entries are updated every 6 hours. ⭐{" "}
           <Link
             href="https://github.com/Anxhul10/gsoc-leaderboard"
             target="_blank"
@@ -45,9 +44,8 @@ export default function RootLayout({
               fontWeight: "bold",
             }}
           >
-            star the repository
+            Like the project? Support it on GitHub.
           </Link>
-          .
         </NotificationBanner>
         <AppRouterCacheProvider options={{ enableCssLayer: true }}>
           {children}
