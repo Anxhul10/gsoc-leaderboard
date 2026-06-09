@@ -25,6 +25,22 @@ type Contributor = {
 
 type DataFile = [StatusResponse, ...Contributor[]];
 
+export async function generateStaticParams() {
+  const dir = path.join(
+    process.cwd(),
+    "data",
+    "contributions",
+  );
+
+  const files = await fs.readdir(dir);
+
+  return files
+    .filter((file) => file.endsWith(".json"))
+    .map((file) => ({
+      slug: file.replace(".json", ""),
+    }));
+}
+
 export default async function Page({
   params,
 }: {
