@@ -1,6 +1,7 @@
 import fs from "fs/promises";
 import path from "path";
 import Link from "next/link";
+import Alert from "@mui/material/Alert";
 import {
   Avatar,
   Box,
@@ -64,11 +65,7 @@ export default async function Page({
           {slug} Leaderboard
         </Typography>
 
-        <Typography
-          variant="body2"
-          color="text.secondary"
-          sx={{ mb: 3, color: "error.main" }}
-        >
+        <Alert severity="warning" sx={{ mb: 3 }}>
           Unfortunately, gsoc-leaderboard currently supports only organizations
           whose source code is hosted on GitHub. If you&apos;d like support for
           another platform, or would like to help implement it, please{" "}
@@ -76,26 +73,19 @@ export default async function Page({
             href="https://github.com/Anxhul10/gsoc-leaderboard/issues"
             target="_blank"
             rel="noopener noreferrer"
-            style={{
-              color: "#1976d2",
-              fontWeight: 600,
-              textDecoration: "none",
-            }}
           >
             open an issue
           </Link>{" "}
           or submit a{" "}
           <Link
             href="https://github.com/Anxhul10/gsoc-leaderboard/pulls"
-            style={{
-              color: "#1976d2",
-              fontWeight: 600,
-              textDecoration: "none",
-            }}
+            target="_blank"
+            rel="noopener noreferrer"
           >
             pull request
           </Link>
-        </Typography>
+          .
+        </Alert>
       </div>
     );
   }
