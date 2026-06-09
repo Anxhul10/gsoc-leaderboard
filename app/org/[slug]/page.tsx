@@ -2,6 +2,8 @@ import fs from "fs/promises";
 import path from "path";
 import Link from "next/link";
 import {
+  Avatar, // <-- Added Avatar import
+  Box, // <-- Added Box import for easy layout alignment
   Paper,
   Table,
   TableBody,
@@ -108,41 +110,56 @@ export default async function Page({
           </TableHead>
 
           <TableBody>
-            {sortedData.map((user, index) => (
-              <TableRow
-                key={user.username}
-                sx={{
-                  "&:nth-of-type(odd)": {
-                    backgroundColor: "action.hover",
-                  },
-                }}
-              >
-                <TableCell>{index + 1}</TableCell>
+            {sortedData.map((user, index) => {
+              // Cleaned up username for URLs (removing '[bot]')
+              const cleanUsername = user.username.replace("[bot]", "");
 
-                <TableCell>
-                  <Link
-                    href={`https://github.com/${user.username.replace("[bot]", "")}`}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    style={{
-                      textDecoration: "none",
-                      color: "#1976d2",
-                      fontWeight: 500,
-                    }}
-                  >
-                    {user.username}
-                  </Link>
-                </TableCell>
+              return (
+                <TableRow
+                  key={user.username}
+                  sx={{
+                    "&:nth-of-type(odd)": {
+                      backgroundColor: "action.hover",
+                    },
+                  }}
+                >
+                  <TableCell>{index + 1}</TableCell>
 
-                <TableCell align="right">
-                  {user.totalPRs - user.mergedPRs}
-                </TableCell>
+                  <TableCell>
+                    {/* Box sets up a flex container to align items perfectly side-by-side */}
+                    <Box
+                      sx={{ display: "flex", alignItems: "center", gap: 1.5 }}
+                    >
+                      <Avatar
+                        src={`https://github.com/${cleanUsername}.png`}
+                        alt={`${user.username}'s avatar`}
+                        sx={{ width: 32, height: 32 }}
+                      />
+                      <Link
+                        href={`https://github.com/${cleanUsername}`}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        style={{
+                          textDecoration: "none",
+                          color: "#1976d2",
+                          fontWeight: 500,
+                        }}
+                      >
+                        {user.username}
+                      </Link>
+                    </Box>
+                  </TableCell>
 
-                <TableCell align="right">{user.mergedPRs}</TableCell>
+                  <TableCell align="right">
+                    {user.totalPRs - user.mergedPRs}
+                  </TableCell>
 
-                <TableCell align="right">{user.totalIssues}</TableCell>
-              </TableRow>
-            ))}
+                  <TableCell align="right">{user.mergedPRs}</TableCell>
+
+                  <TableCell align="right">{user.totalIssues}</TableCell>
+                </TableRow>
+              );
+            })}
           </TableBody>
         </Table>
       </TableContainer>
