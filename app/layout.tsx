@@ -3,7 +3,8 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { AppRouterCacheProvider } from "@mui/material-nextjs/v15-appRouter";
 import { default as Navbar } from "@/components/Navbar";
-
+import NotificationBanner from "@/components/NotificationBanner";
+import Link from "next/link";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -31,6 +32,23 @@ export default function RootLayout({
     >
       <body className="min-h-full flex flex-col">
         <Navbar />
+        <NotificationBanner>
+          These leaderboard entries are updated every 6 hours. ⭐ If you find
+          this project useful,{" "}
+          <Link
+            href="https://github.com/Anxhul10/gsoc-leaderboard"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              color: "inherit",
+              textDecoration: "underline",
+              fontWeight: "bold",
+            }}
+          >
+            star the repository
+          </Link>
+          .
+        </NotificationBanner>
         <AppRouterCacheProvider options={{ enableCssLayer: true }}>
           {children}
         </AppRouterCacheProvider>
