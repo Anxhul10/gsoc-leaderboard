@@ -112,7 +112,7 @@ export default async function Page({
 
   return (
     <div style={{ padding: 24 }}>
-      <Typography variant="h4" gutterBottom>
+      <Typography variant="h4" align="center" gutterBottom>
         {slug} Leaderboard
       </Typography>
 
