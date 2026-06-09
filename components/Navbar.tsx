@@ -4,6 +4,9 @@ import Image from "next/image";
 import { useRouter } from "next/navigation";
 import { useDebouncedCallback } from "use-debounce";
 
+const isProd = process.env.NODE_ENV === "production";
+const ROOT_PATH = isProd ? "/gsoc-leaderboard" : "";
+
 export default function Navbar() {
   const router = useRouter();
 
@@ -19,7 +22,7 @@ export default function Navbar() {
     <div className="Navbar">
       <div className="Navbar-left" style={{ cursor: "pointer" }}>
         <Image
-          src="/icon1.svg"
+          src={`${ROOT_PATH}/icon1.svg`}
           alt="main logo"
           loading="eager"
           width={50}
@@ -44,7 +47,7 @@ export default function Navbar() {
           rel="noopener noreferrer"
         >
           <Image
-            src="/icon0.svg"
+            src={`${ROOT_PATH}/icon0.svg`}
             alt="github logo"
             loading="eager"
             width={30}
