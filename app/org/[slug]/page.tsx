@@ -26,11 +26,7 @@ type Contributor = {
 type DataFile = [StatusResponse, ...Contributor[]];
 
 export async function generateStaticParams() {
-  const dir = path.join(
-    process.cwd(),
-    "data",
-    "contributions",
-  );
+  const dir = path.join(process.cwd(), "data", "contributions");
 
   const files = await fs.readdir(dir);
 
@@ -55,9 +51,7 @@ export default async function Page({
     `${slug.toLowerCase()}.json`,
   );
 
-  const rawData: DataFile = JSON.parse(
-    await fs.readFile(filePath, "utf-8"),
-  );
+  const rawData: DataFile = JSON.parse(await fs.readFile(filePath, "utf-8"));
 
   const status = rawData[0]?.status;
 
@@ -144,13 +138,9 @@ export default async function Page({
                   {user.totalPRs - user.mergedPRs}
                 </TableCell>
 
-                <TableCell align="right">
-                  {user.mergedPRs}
-                </TableCell>
+                <TableCell align="right">{user.mergedPRs}</TableCell>
 
-                <TableCell align="right">
-                  {user.totalIssues}
-                </TableCell>
+                <TableCell align="right">{user.totalIssues}</TableCell>
               </TableRow>
             ))}
           </TableBody>
