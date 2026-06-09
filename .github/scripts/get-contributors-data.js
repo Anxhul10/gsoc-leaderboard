@@ -279,10 +279,10 @@ async function main() {
     }
 
     // Skip Apache in the normal run
-    // if (owner.toLowerCase() === "apache") {
-    //   console.log(`[Skipped] ${org.name} - Apache is deliberately skipped in the normal run. Use processApacheOnly() to run it.`);
-    //   continue;
-    // }
+    if (owner.toLowerCase() === "apache") {
+      console.log(`[Skipped] ${org.name} - Apache is deliberately skipped in the normal run. Use processApacheOnly() to run it.`);
+      continue;
+    }
 
     // Uses the optimized batch size of 5 for normal runs
     await processAndSaveOrganization(org, owner, outDir, 5);

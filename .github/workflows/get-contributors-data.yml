@@ -1,4 +1,4 @@
-name: Run GSoC Leaderboard Scraper
+name: get-contributors-data
 
 on:
   workflow_dispatch:
@@ -11,6 +11,8 @@ on:
         options:
           - regular
           - apache
+    schedule:
+    - cron: "0 */6 * * *"
 
 jobs:
   scrape:
@@ -30,7 +32,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.PERSONAL_GITHUB_TOKEN }}
           JOB_TYPE: ${{ github.event.inputs.job_type }}
-        run: node .github/scripts/temp.js
+        run: node .github/scripts/get-contributors-data.js
 
       - name: Commit and Push changes
         run: |
