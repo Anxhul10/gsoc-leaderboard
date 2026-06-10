@@ -2,7 +2,7 @@ name: get-contributors-data
 
 on:
   schedule:
-    - cron: "20 6 * * *"
+    - cron: "30 6 * * *"
   workflow_dispatch:
     inputs:
       job_type:
