@@ -2,7 +2,7 @@ name: get-contributors-data
 
 on:
   schedule:
-  - cron: "20 6 * * *"
+    - cron: "20 6 * * *"
 
 jobs:
   scrape:
