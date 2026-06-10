@@ -1,19 +1,8 @@
 name: get-contributors-data
 
 on:
-  workflow_dispatch:
-    inputs:
-      job_type:
-        description: "Select which job to execute"
-        required: true
-        default: "regular"
-        type: choice
-        options:
-          - regular
-          - apache
-
   schedule:
-    - cron: "0 */6 * * *"
+  - cron: "20 6 * * *"
 
 jobs:
   scrape:
