@@ -11,7 +11,8 @@ on:
         options:
           - regular
           - apache
-    schedule:
+
+  schedule:
     - cron: "0 */6 * * *"
 
 jobs:
@@ -31,7 +32,7 @@ jobs:
       - name: Run Scraper Script
         env:
           GITHUB_TOKEN: ${{ secrets.PERSONAL_GITHUB_TOKEN }}
-          JOB_TYPE: ${{ github.event.inputs.job_type }}
+          JOB_TYPE: ${{ github.event.inputs.job_type || 'regular' }}
         run: node .github/scripts/get-contributors-data.js
 
       - name: Commit and Push changes
