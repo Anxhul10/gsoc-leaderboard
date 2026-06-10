@@ -8,27 +8,26 @@ The goal of this project is to help new contributors quickly understand the acti
 
 When exploring organizations for Google Summer of Code, it can be difficult to estimate:
 
-* How active an organization is
-* How many contributors are involved
-* How many pull requests are being merged
+- How active an organization is
+- How many contributors are involved
+- How many pull requests are being merged
 
 This project aims to make that information easier to discover through a simple and transparent interface.
 
 ## Features
 
-* Organization-specific leaderboards
-* Pull request statistics
-* Merged pull request statistics
-* Issue statistics
-* Search organizations
-* Open-source and transparent data collection
+- Organization-specific leaderboards
+- Pull request statistics
+- Merged pull request statistics
+- Issue statistics
+- Search organizations
+- Open-source and transparent data collection
 
 ## Data Updates
 
 Leaderboard data is updated every **6 hours**.
 
 This update interval exists because GitHub's API has rate limits, and updating too frequently would quickly exhaust the available quota.
-
 
 ## Open Source & Transparency
 
@@ -44,12 +43,12 @@ Contributions of all sizes are welcome.
 
 Whether you want to:
 
-* Fix a bug
-* Improve the UI
-* Add support for a new platform
-* Improve data collection
-* Add a new organization
-* Improve documentation
+- Fix a bug
+- Improve the UI
+- Add support for a new platform
+- Improve data collection
+- Add a new organization
+- Improve documentation
 
 feel free to open an issue or submit a pull request.
 
