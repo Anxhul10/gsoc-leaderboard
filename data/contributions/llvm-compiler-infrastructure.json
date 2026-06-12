@@ -4,20 +4,20 @@
   },
   {
     "username": "uenoku",
-    "totalPRs": 171,
+    "totalPRs": 172,
     "mergedPRs": 158,
     "totalIssues": 43
   },
   {
     "username": "bump-llvm[bot]",
-    "totalPRs": 125,
+    "totalPRs": 126,
     "mergedPRs": 125,
     "totalIssues": 0
   },
   {
     "username": "seldridge",
     "totalPRs": 127,
-    "mergedPRs": 113,
+    "mergedPRs": 114,
     "totalIssues": 49
   },
   {
@@ -29,7 +29,7 @@
   {
     "username": "fabianschuiki",
     "totalPRs": 84,
-    "mergedPRs": 78,
+    "mergedPRs": 81,
     "totalIssues": 7
   },
   {
@@ -46,8 +46,8 @@
   },
   {
     "username": "rengolin",
-    "totalPRs": 53,
-    "mergedPRs": 51,
+    "totalPRs": 54,
+    "mergedPRs": 52,
     "totalIssues": 11
   },
   {
@@ -93,16 +93,16 @@
     "totalIssues": 27
   },
   {
+    "username": "bogner",
+    "totalPRs": 32,
+    "mergedPRs": 28,
+    "totalIssues": 6
+  },
+  {
     "username": "tkarna",
     "totalPRs": 31,
     "mergedPRs": 28,
     "totalIssues": 0
-  },
-  {
-    "username": "bogner",
-    "totalPRs": 31,
-    "mergedPRs": 28,
-    "totalIssues": 6
   },
   {
     "username": "nanjo712",
@@ -149,7 +149,7 @@
   {
     "username": "MarijnS95",
     "totalPRs": 35,
-    "mergedPRs": 17,
+    "mergedPRs": 18,
     "totalIssues": 7
   },
   {
@@ -178,7 +178,7 @@
   },
   {
     "username": "vvereschaka",
-    "totalPRs": 14,
+    "totalPRs": 15,
     "mergedPRs": 14,
     "totalIssues": 0
   },
@@ -246,7 +246,7 @@
     "username": "sahas3",
     "totalPRs": 10,
     "mergedPRs": 10,
-    "totalIssues": 0
+    "totalIssues": 1
   },
   {
     "username": "Keenuts",
@@ -259,6 +259,12 @@
     "totalPRs": 25,
     "mergedPRs": 8,
     "totalIssues": 7
+  },
+  {
+    "username": "AmurG",
+    "totalPRs": 13,
+    "mergedPRs": 8,
+    "totalIssues": 0
   },
   {
     "username": "kcloudy0717",
@@ -309,6 +315,12 @@
     "totalIssues": 0
   },
   {
+    "username": "VecoMr",
+    "totalPRs": 10,
+    "mergedPRs": 6,
+    "totalIssues": 0
+  },
+  {
     "username": "5iri",
     "totalPRs": 10,
     "mergedPRs": 6,
@@ -354,12 +366,6 @@
     "username": "Artem-B",
     "totalPRs": 6,
     "mergedPRs": 6,
-    "totalIssues": 0
-  },
-  {
-    "username": "VecoMr",
-    "totalPRs": 10,
-    "mergedPRs": 5,
     "totalIssues": 0
   },
   {
@@ -437,12 +443,6 @@
   {
     "username": "jroelofs",
     "totalPRs": 14,
-    "mergedPRs": 4,
-    "totalIssues": 0
-  },
-  {
-    "username": "AmurG",
-    "totalPRs": 13,
     "mergedPRs": 4,
     "totalIssues": 0
   },
@@ -591,6 +591,12 @@
     "totalIssues": 0
   },
   {
+    "username": "micprog",
+    "totalPRs": 3,
+    "mergedPRs": 3,
+    "totalIssues": 0
+  },
+  {
     "username": "stomfaig",
     "totalPRs": 3,
     "mergedPRs": 3,
@@ -679,12 +685,6 @@
     "totalPRs": 4,
     "mergedPRs": 2,
     "totalIssues": 153
-  },
-  {
-    "username": "micprog",
-    "totalPRs": 3,
-    "mergedPRs": 2,
-    "totalIssues": 0
   },
   {
     "username": "arpitjain099",
@@ -909,6 +909,12 @@
     "totalIssues": 0
   },
   {
+    "username": "fkhaidari",
+    "totalPRs": 2,
+    "mergedPRs": 1,
+    "totalIssues": 0
+  },
+  {
     "username": "SmitVaishanav",
     "totalPRs": 2,
     "mergedPRs": 1,
@@ -917,18 +923,6 @@
   {
     "username": "jopperm",
     "totalPRs": 2,
-    "mergedPRs": 1,
-    "totalIssues": 0
-  },
-  {
-    "username": "xaerru",
-    "totalPRs": 1,
-    "mergedPRs": 1,
-    "totalIssues": 0
-  },
-  {
-    "username": "mahmood82",
-    "totalPRs": 1,
     "mergedPRs": 1,
     "totalIssues": 0
   },
@@ -946,6 +940,18 @@
   },
   {
     "username": "MythreyaK",
+    "totalPRs": 1,
+    "mergedPRs": 1,
+    "totalIssues": 0
+  },
+  {
+    "username": "xaerru",
+    "totalPRs": 1,
+    "mergedPRs": 1,
+    "totalIssues": 0
+  },
+  {
+    "username": "mahmood82",
     "totalPRs": 1,
     "mergedPRs": 1,
     "totalIssues": 0
@@ -1397,12 +1403,6 @@
   {
     "username": "hwnam831",
     "totalPRs": 3,
-    "mergedPRs": 0,
-    "totalIssues": 0
-  },
-  {
-    "username": "fkhaidari",
-    "totalPRs": 2,
     "mergedPRs": 0,
     "totalIssues": 0
   },
