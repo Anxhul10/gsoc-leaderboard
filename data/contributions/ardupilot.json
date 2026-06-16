@@ -5,8 +5,8 @@
   {
     "username": "peterbarker",
     "totalPRs": 425,
-    "mergedPRs": 333,
-    "totalIssues": 15
+    "mergedPRs": 337,
+    "totalIssues": 16
   },
   {
     "username": "dependabot[bot]",
@@ -35,7 +35,7 @@
   {
     "username": "khancyr",
     "totalPRs": 77,
-    "mergedPRs": 61,
+    "mergedPRs": 62,
     "totalIssues": 4
   },
   {
@@ -46,9 +46,9 @@
   },
   {
     "username": "rmackay9",
-    "totalPRs": 61,
-    "mergedPRs": 58,
-    "totalIssues": 37
+    "totalPRs": 62,
+    "mergedPRs": 59,
+    "totalIssues": 38
   },
   {
     "username": "IamPete1",
@@ -58,7 +58,7 @@
   },
   {
     "username": "hunt0r",
-    "totalPRs": 79,
+    "totalPRs": 80,
     "mergedPRs": 45,
     "totalIssues": 6
   },
@@ -75,16 +75,16 @@
     "totalIssues": 0
   },
   {
-    "username": "ES-Alexander",
-    "totalPRs": 38,
-    "mergedPRs": 31,
-    "totalIssues": 7
-  },
-  {
     "username": "andyp1per",
     "totalPRs": 72,
-    "mergedPRs": 28,
+    "mergedPRs": 29,
     "totalIssues": 1
+  },
+  {
+    "username": "ES-Alexander",
+    "totalPRs": 35,
+    "mergedPRs": 28,
+    "totalIssues": 7
   },
   {
     "username": "lthall",
@@ -148,7 +148,7 @@
   },
   {
     "username": "pre-commit-ci[bot]",
-    "totalPRs": 12,
+    "totalPRs": 13,
     "mergedPRs": 10,
     "totalIssues": 0
   },
@@ -525,12 +525,6 @@
     "totalIssues": 1
   },
   {
-    "username": "edengilbertus",
-    "totalPRs": 4,
-    "mergedPRs": 1,
-    "totalIssues": 0
-  },
-  {
     "username": "Rahul-Karshak",
     "totalPRs": 3,
     "mergedPRs": 1,
@@ -595,6 +589,12 @@
     "totalPRs": 3,
     "mergedPRs": 1,
     "totalIssues": 1
+  },
+  {
+    "username": "edengilbertus",
+    "totalPRs": 3,
+    "mergedPRs": 1,
+    "totalIssues": 0
   },
   {
     "username": "amovlgf",
@@ -1083,6 +1083,12 @@
     "totalIssues": 0
   },
   {
+    "username": "TOTON95",
+    "totalPRs": 3,
+    "mergedPRs": 0,
+    "totalIssues": 0
+  },
+  {
     "username": "anoshyn",
     "totalPRs": 3,
     "mergedPRs": 0,
@@ -1455,7 +1461,7 @@
     "totalIssues": 0
   },
   {
-    "username": "TOTON95",
+    "username": "diox8tony",
     "totalPRs": 1,
     "mergedPRs": 0,
     "totalIssues": 0
@@ -2181,13 +2187,37 @@
     "totalIssues": 0
   },
   {
+    "username": "MohammadAdib",
+    "totalPRs": 1,
+    "mergedPRs": 0,
+    "totalIssues": 0
+  },
+  {
     "username": "trexgerratt",
     "totalPRs": 1,
     "mergedPRs": 0,
     "totalIssues": 0
   },
   {
-    "username": "MohammadAdib",
+    "username": "makeflyeasy",
+    "totalPRs": 1,
+    "mergedPRs": 0,
+    "totalIssues": 0
+  },
+  {
+    "username": "sibasish-b22git",
+    "totalPRs": 1,
+    "mergedPRs": 0,
+    "totalIssues": 0
+  },
+  {
+    "username": "Quadzilla805",
+    "totalPRs": 1,
+    "mergedPRs": 0,
+    "totalIssues": 0
+  },
+  {
+    "username": "de-okpara",
     "totalPRs": 1,
     "mergedPRs": 0,
     "totalIssues": 0
@@ -2209,24 +2239,6 @@
     "totalPRs": 1,
     "mergedPRs": 0,
     "totalIssues": 1
-  },
-  {
-    "username": "sibasish-b22git",
-    "totalPRs": 1,
-    "mergedPRs": 0,
-    "totalIssues": 0
-  },
-  {
-    "username": "Quadzilla805",
-    "totalPRs": 1,
-    "mergedPRs": 0,
-    "totalIssues": 0
-  },
-  {
-    "username": "de-okpara",
-    "totalPRs": 1,
-    "mergedPRs": 0,
-    "totalIssues": 0
   },
   {
     "username": "saitejareddy05",
@@ -2631,6 +2643,12 @@
     "totalIssues": 1
   },
   {
+    "username": "fireblazinwand",
+    "totalPRs": 0,
+    "mergedPRs": 0,
+    "totalIssues": 1
+  },
+  {
     "username": "abdelhalimmostafa715-oss",
     "totalPRs": 0,
     "mergedPRs": 0,
@@ -2751,12 +2769,6 @@
     "totalIssues": 1
   },
   {
-    "username": "heronprecision-1",
-    "totalPRs": 0,
-    "mergedPRs": 0,
-    "totalIssues": 1
-  },
-  {
     "username": "wiia7869-code",
     "totalPRs": 0,
     "mergedPRs": 0,
@@ -2764,6 +2776,12 @@
   },
   {
     "username": "Francois1994",
+    "totalPRs": 0,
+    "mergedPRs": 0,
+    "totalIssues": 1
+  },
+  {
+    "username": "heronprecision-1",
     "totalPRs": 0,
     "mergedPRs": 0,
     "totalIssues": 1
