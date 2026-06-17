@@ -3,27 +3,27 @@
     "status": "success"
   },
   {
+    "username": "Planeshifter",
+    "totalPRs": 495,
+    "mergedPRs": 374,
+    "totalIssues": 0
+  },
+  {
     "username": "stdlib-bot",
     "totalPRs": 380,
     "mergedPRs": 368,
-    "totalIssues": 152
-  },
-  {
-    "username": "Planeshifter",
-    "totalPRs": 494,
-    "mergedPRs": 351,
-    "totalIssues": 0
+    "totalIssues": 153
   },
   {
     "username": "headlessNode",
     "totalPRs": 237,
-    "mergedPRs": 213,
+    "mergedPRs": 214,
     "totalIssues": 0
   },
   {
     "username": "anandkaranubc",
     "totalPRs": 199,
-    "mergedPRs": 195,
+    "mergedPRs": 196,
     "totalIssues": 0
   },
   {
@@ -195,6 +195,12 @@
     "totalIssues": 13
   },
   {
+    "username": "impawstarlight",
+    "totalPRs": 12,
+    "mergedPRs": 10,
+    "totalIssues": 1
+  },
+  {
     "username": "Witty-31-06",
     "totalPRs": 15,
     "mergedPRs": 9,
@@ -205,12 +211,6 @@
     "totalPRs": 37,
     "mergedPRs": 8,
     "totalIssues": 5
-  },
-  {
-    "username": "impawstarlight",
-    "totalPRs": 12,
-    "mergedPRs": 8,
-    "totalIssues": 1
   },
   {
     "username": "DivyanshuVortex",
@@ -439,6 +439,12 @@
     "totalPRs": 2,
     "mergedPRs": 1,
     "totalIssues": 1
+  },
+  {
+    "username": "sathwikv2005",
+    "totalPRs": 2,
+    "mergedPRs": 1,
+    "totalIssues": 0
   },
   {
     "username": "puneetdixit200",
@@ -700,12 +706,6 @@
   },
   {
     "username": "orbisai0security",
-    "totalPRs": 2,
-    "mergedPRs": 0,
-    "totalIssues": 0
-  },
-  {
-    "username": "sathwikv2005",
     "totalPRs": 2,
     "mergedPRs": 0,
     "totalIssues": 0
@@ -1152,7 +1152,7 @@
     "username": "github-actions[bot]",
     "totalPRs": 0,
     "mergedPRs": 0,
-    "totalIssues": 21
+    "totalIssues": 22
   },
   {
     "username": "donhatch",
