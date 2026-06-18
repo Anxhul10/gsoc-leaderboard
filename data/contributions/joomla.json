@@ -22,7 +22,7 @@
   },
   {
     "username": "laoneo",
-    "totalPRs": 76,
+    "totalPRs": 78,
     "mergedPRs": 58,
     "totalIssues": 4
   },
@@ -36,7 +36,7 @@
     "username": "brianteeman",
     "totalPRs": 50,
     "mergedPRs": 43,
-    "totalIssues": 22
+    "totalIssues": 23
   },
   {
     "username": "github-actions[bot]",
@@ -52,8 +52,8 @@
   },
   {
     "username": "robbiejackson",
-    "totalPRs": 33,
-    "mergedPRs": 32,
+    "totalPRs": 34,
+    "mergedPRs": 33,
     "totalIssues": 1
   },
   {
@@ -69,9 +69,21 @@
     "totalIssues": 2
   },
   {
+    "username": "joomdonation",
+    "totalPRs": 24,
+    "mergedPRs": 17,
+    "totalIssues": 0
+  },
+  {
     "username": "Bodge-IT",
     "totalPRs": 19,
     "mergedPRs": 17,
+    "totalIssues": 1
+  },
+  {
+    "username": "Hackwar",
+    "totalPRs": 45,
+    "mergedPRs": 16,
     "totalIssues": 1
   },
   {
@@ -79,18 +91,6 @@
     "totalPRs": 23,
     "mergedPRs": 16,
     "totalIssues": 2
-  },
-  {
-    "username": "Hackwar",
-    "totalPRs": 45,
-    "mergedPRs": 15,
-    "totalIssues": 1
-  },
-  {
-    "username": "joomdonation",
-    "totalPRs": 23,
-    "mergedPRs": 11,
-    "totalIssues": 0
   },
   {
     "username": "chmst",
@@ -910,6 +910,12 @@
   },
   {
     "username": "antoniotheant",
+    "totalPRs": 0,
+    "mergedPRs": 0,
+    "totalIssues": 1
+  },
+  {
+    "username": "pcombet-adosis",
     "totalPRs": 0,
     "mergedPRs": 0,
     "totalIssues": 1

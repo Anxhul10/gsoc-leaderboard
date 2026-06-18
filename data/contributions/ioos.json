@@ -4,27 +4,21 @@
   },
   {
     "username": "dependabot[bot]",
-    "totalPRs": 184,
-    "mergedPRs": 139,
+    "totalPRs": 174,
+    "mergedPRs": 134,
     "totalIssues": 0
   },
   {
     "username": "ocefpaf",
-    "totalPRs": 114,
-    "mergedPRs": 100,
-    "totalIssues": 13
+    "totalPRs": 112,
+    "mergedPRs": 98,
+    "totalIssues": 12
   },
   {
     "username": "pre-commit-ci[bot]",
-    "totalPRs": 53,
-    "mergedPRs": 45,
+    "totalPRs": 51,
+    "mergedPRs": 43,
     "totalIssues": 0
-  },
-  {
-    "username": "benjwadams",
-    "totalPRs": 46,
-    "mergedPRs": 44,
-    "totalIssues": 10
   },
   {
     "username": "robbiecarroll",
@@ -45,10 +39,10 @@
     "totalIssues": 0
   },
   {
-    "username": "leilabbb",
-    "totalPRs": 8,
-    "mergedPRs": 7,
-    "totalIssues": 5
+    "username": "benjwadams",
+    "totalPRs": 9,
+    "mergedPRs": 8,
+    "totalIssues": 1
   },
   {
     "username": "nguyandy",
@@ -57,16 +51,16 @@
     "totalIssues": 0
   },
   {
-    "username": "MathewBiddle",
-    "totalPRs": 7,
-    "mergedPRs": 5,
-    "totalIssues": 19
-  },
-  {
     "username": "srstsavage",
     "totalPRs": 7,
     "mergedPRs": 5,
     "totalIssues": 0
+  },
+  {
+    "username": "MathewBiddle",
+    "totalPRs": 7,
+    "mergedPRs": 5,
+    "totalIssues": 19
   },
   {
     "username": "callumrollo",
@@ -285,12 +279,6 @@
     "totalIssues": 0
   },
   {
-    "username": "suhr25",
-    "totalPRs": 1,
-    "mergedPRs": 0,
-    "totalIssues": 0
-  },
-  {
     "username": "ksauby",
     "totalPRs": 1,
     "mergedPRs": 0,
@@ -348,7 +336,7 @@
     "username": "enrico-mi",
     "totalPRs": 0,
     "mergedPRs": 0,
-    "totalIssues": 2
+    "totalIssues": 1
   },
   {
     "username": "Bai-Li-NOAA",
@@ -423,18 +411,6 @@
     "totalIssues": 1
   },
   {
-    "username": "sarinamann-noaa",
-    "totalPRs": 0,
-    "mergedPRs": 0,
-    "totalIssues": 7
-  },
-  {
-    "username": "breannalcv",
-    "totalPRs": 0,
-    "mergedPRs": 0,
-    "totalIssues": 1
-  },
-  {
     "username": "hmoustahfid-NOAA",
     "totalPRs": 0,
     "mergedPRs": 0,
@@ -459,15 +435,15 @@
     "totalIssues": 2
   },
   {
-    "username": "superjai",
-    "totalPRs": 0,
-    "mergedPRs": 0,
-    "totalIssues": 59
-  },
-  {
     "username": "AmyMacFadyen",
     "totalPRs": 0,
     "mergedPRs": 0,
     "totalIssues": 1
+  },
+  {
+    "username": "superjai",
+    "totalPRs": 0,
+    "mergedPRs": 0,
+    "totalIssues": 59
   }
 ]
