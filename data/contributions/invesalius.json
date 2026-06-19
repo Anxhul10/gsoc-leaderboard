@@ -11,20 +11,20 @@
   {
     "username": "sh1vam31",
     "totalPRs": 59,
-    "mergedPRs": 34,
+    "mergedPRs": 35,
     "totalIssues": 7
+  },
+  {
+    "username": "tfmoraes",
+    "totalPRs": 9,
+    "mergedPRs": 9,
+    "totalIssues": 0
   },
   {
     "username": "Kaipapurandeswarreddy",
     "totalPRs": 17,
     "mergedPRs": 8,
     "totalIssues": 4
-  },
-  {
-    "username": "tfmoraes",
-    "totalPRs": 9,
-    "mergedPRs": 8,
-    "totalIssues": 0
   },
   {
     "username": "rmatsuda",
@@ -111,6 +111,12 @@
     "totalIssues": 2
   },
   {
+    "username": "dependabot[bot]",
+    "totalPRs": 3,
+    "mergedPRs": 0,
+    "totalIssues": 0
+  },
+  {
     "username": "prometheus5863",
     "totalPRs": 3,
     "mergedPRs": 0,
@@ -166,12 +172,6 @@
   },
   {
     "username": "Afridisaudagar",
-    "totalPRs": 1,
-    "mergedPRs": 0,
-    "totalIssues": 0
-  },
-  {
-    "username": "dependabot[bot]",
     "totalPRs": 1,
     "mergedPRs": 0,
     "totalIssues": 0
