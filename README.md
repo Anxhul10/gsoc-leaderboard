@@ -25,7 +25,7 @@ This project aims to make that information easier to discover through a simple a
 
 ## Data Updates
 
-Leaderboard data is updated every **6 hours**.
+Leaderboard data is updated every **24 hours**.
 
 This update interval exists because GitHub's API has rate limits, and updating too frequently would quickly exhaust the available quota.
 
