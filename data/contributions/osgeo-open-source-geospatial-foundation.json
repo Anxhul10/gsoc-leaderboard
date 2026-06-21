@@ -4,14 +4,14 @@
   },
   {
     "username": "rouault",
-    "totalPRs": 553,
-    "mergedPRs": 542,
+    "totalPRs": 555,
+    "mergedPRs": 545,
     "totalIssues": 23
   },
   {
     "username": "renovate[bot]",
     "totalPRs": 316,
-    "mergedPRs": 288,
+    "mergedPRs": 290,
     "totalIssues": 1
   },
   {
@@ -46,7 +46,7 @@
   },
   {
     "username": "github-actions[bot]",
-    "totalPRs": 35,
+    "totalPRs": 36,
     "mergedPRs": 31,
     "totalIssues": 0
   },
@@ -82,7 +82,7 @@
   },
   {
     "username": "echoix",
-    "totalPRs": 25,
+    "totalPRs": 26,
     "mergedPRs": 25,
     "totalIssues": 8
   },
@@ -91,6 +91,12 @@
     "totalPRs": 19,
     "mergedPRs": 19,
     "totalIssues": 0
+  },
+  {
+    "username": "Valyrian-Code",
+    "totalPRs": 25,
+    "mergedPRs": 18,
+    "totalIssues": 11
   },
   {
     "username": "ecodiv",
@@ -103,12 +109,6 @@
     "totalPRs": 23,
     "mergedPRs": 18,
     "totalIssues": 2
-  },
-  {
-    "username": "Valyrian-Code",
-    "totalPRs": 25,
-    "mergedPRs": 17,
-    "totalIssues": 11
   },
   {
     "username": "jidanni",
@@ -327,6 +327,12 @@
     "totalIssues": 4
   },
   {
+    "username": "krcoder123",
+    "totalPRs": 6,
+    "mergedPRs": 2,
+    "totalIssues": 0
+  },
+  {
     "username": "thbeu",
     "totalPRs": 4,
     "mergedPRs": 2,
@@ -401,12 +407,6 @@
   {
     "username": "sumitchintanwar",
     "totalPRs": 9,
-    "mergedPRs": 1,
-    "totalIssues": 0
-  },
-  {
-    "username": "krcoder123",
-    "totalPRs": 6,
     "mergedPRs": 1,
     "totalIssues": 0
   },
@@ -801,6 +801,12 @@
     "totalIssues": 0
   },
   {
+    "username": "evilla713",
+    "totalPRs": 1,
+    "mergedPRs": 0,
+    "totalIssues": 0
+  },
+  {
     "username": "ploewe",
     "totalPRs": 1,
     "mergedPRs": 0,
@@ -814,12 +820,6 @@
   },
   {
     "username": "sravanya1912",
-    "totalPRs": 1,
-    "mergedPRs": 0,
-    "totalIssues": 0
-  },
-  {
-    "username": "evilla713",
     "totalPRs": 1,
     "mergedPRs": 0,
     "totalIssues": 0
@@ -948,7 +948,7 @@
     "username": "jhamman",
     "totalPRs": 0,
     "mergedPRs": 0,
-    "totalIssues": 5
+    "totalIssues": 6
   },
   {
     "username": "jbdesbas",

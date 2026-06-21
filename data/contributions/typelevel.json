@@ -4,8 +4,8 @@
   },
   {
     "username": "typelevel-steward[bot]",
-    "totalPRs": 2101,
-    "mergedPRs": 1313,
+    "totalPRs": 2164,
+    "mergedPRs": 1335,
     "totalIssues": 0
   },
   {
@@ -117,6 +117,12 @@
     "totalIssues": 3
   },
   {
+    "username": "antoniojimeneznieto",
+    "totalPRs": 5,
+    "mergedPRs": 3,
+    "totalIssues": 0
+  },
+  {
     "username": "joroKr21",
     "totalPRs": 3,
     "mergedPRs": 3,
@@ -151,12 +157,6 @@
     "totalPRs": 6,
     "mergedPRs": 2,
     "totalIssues": 1
-  },
-  {
-    "username": "antoniojimeneznieto",
-    "totalPRs": 5,
-    "mergedPRs": 2,
-    "totalIssues": 0
   },
   {
     "username": "dhinojosa",
@@ -525,13 +525,13 @@
     "totalIssues": 0
   },
   {
-    "username": "yilinwei",
+    "username": "johanmast",
     "totalPRs": 1,
     "mergedPRs": 1,
     "totalIssues": 0
   },
   {
-    "username": "johanmast",
+    "username": "yilinwei",
     "totalPRs": 1,
     "mergedPRs": 1,
     "totalIssues": 0
@@ -705,12 +705,6 @@
     "totalIssues": 0
   },
   {
-    "username": "alexcardell",
-    "totalPRs": 1,
-    "mergedPRs": 0,
-    "totalIssues": 0
-  },
-  {
     "username": "pityka",
     "totalPRs": 1,
     "mergedPRs": 0,
@@ -729,13 +723,19 @@
     "totalIssues": 0
   },
   {
-    "username": "QuitHub",
+    "username": "alexcardell",
     "totalPRs": 1,
     "mergedPRs": 0,
     "totalIssues": 0
   },
   {
     "username": "jchyb",
+    "totalPRs": 1,
+    "mergedPRs": 0,
+    "totalIssues": 0
+  },
+  {
+    "username": "QuitHub",
     "totalPRs": 1,
     "mergedPRs": 0,
     "totalIssues": 0
@@ -939,6 +939,12 @@
     "totalIssues": 1
   },
   {
+    "username": "mfirry",
+    "totalPRs": 0,
+    "mergedPRs": 0,
+    "totalIssues": 1
+  },
+  {
     "username": "JackieDev",
     "totalPRs": 0,
     "mergedPRs": 0,
@@ -952,12 +958,6 @@
   },
   {
     "username": "chenharryhua",
-    "totalPRs": 0,
-    "mergedPRs": 0,
-    "totalIssues": 1
-  },
-  {
-    "username": "mfirry",
     "totalPRs": 0,
     "mergedPRs": 0,
     "totalIssues": 1
@@ -1005,16 +1005,16 @@
     "totalIssues": 1
   },
   {
-    "username": "Zijie000",
-    "totalPRs": 0,
-    "mergedPRs": 0,
-    "totalIssues": 3
-  },
-  {
     "username": "ElnuDev",
     "totalPRs": 0,
     "mergedPRs": 0,
     "totalIssues": 1
+  },
+  {
+    "username": "Zijie000",
+    "totalPRs": 0,
+    "mergedPRs": 0,
+    "totalIssues": 3
   },
   {
     "username": "ilinandrii",
