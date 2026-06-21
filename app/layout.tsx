@@ -33,7 +33,7 @@ export default function RootLayout({
       <body className="min-h-full flex flex-col">
         <Navbar />
         <NotificationBanner>
-          These leaderboard entries are updated every 6 hours. ⭐{" "}
+          These leaderboard entries are updated every 24 hours. ⭐{" "}
           <Link
             href="https://github.com/Anxhul10/gsoc-leaderboard"
             target="_blank"
