@@ -4,8 +4,8 @@
   },
   {
     "username": "rouault",
-    "totalPRs": 555,
-    "mergedPRs": 545,
+    "totalPRs": 558,
+    "mergedPRs": 546,
     "totalIssues": 23
   },
   {
@@ -35,7 +35,7 @@
   {
     "username": "dependabot[bot]",
     "totalPRs": 42,
-    "mergedPRs": 41,
+    "mergedPRs": 42,
     "totalIssues": 0
   },
   {
@@ -47,7 +47,7 @@
   {
     "username": "github-actions[bot]",
     "totalPRs": 36,
-    "mergedPRs": 31,
+    "mergedPRs": 32,
     "totalIssues": 0
   },
   {
@@ -87,6 +87,12 @@
     "totalIssues": 8
   },
   {
+    "username": "ecodiv",
+    "totalPRs": 24,
+    "mergedPRs": 19,
+    "totalIssues": 4
+  },
+  {
     "username": "AbelPau",
     "totalPRs": 19,
     "mergedPRs": 19,
@@ -97,12 +103,6 @@
     "totalPRs": 25,
     "mergedPRs": 18,
     "totalIssues": 11
-  },
-  {
-    "username": "ecodiv",
-    "totalPRs": 24,
-    "mergedPRs": 18,
-    "totalIssues": 4
   },
   {
     "username": "boxerab",
@@ -1540,6 +1540,12 @@
   },
   {
     "username": "williamlai2",
+    "totalPRs": 0,
+    "mergedPRs": 0,
+    "totalIssues": 1
+  },
+  {
+    "username": "dkonda42",
     "totalPRs": 0,
     "mergedPRs": 0,
     "totalIssues": 1
