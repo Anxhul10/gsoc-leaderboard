@@ -40,7 +40,7 @@
   },
   {
     "username": "San1357",
-    "totalPRs": 12,
+    "totalPRs": 13,
     "mergedPRs": 2,
     "totalIssues": 1
   },
@@ -75,12 +75,6 @@
     "totalIssues": 0
   },
   {
-    "username": "peter-reinholdt",
-    "totalPRs": 1,
-    "mergedPRs": 1,
-    "totalIssues": 0
-  },
-  {
     "username": "tyrolize",
     "totalPRs": 1,
     "mergedPRs": 1,
@@ -97,6 +91,12 @@
     "totalPRs": 1,
     "mergedPRs": 1,
     "totalIssues": 1
+  },
+  {
+    "username": "peter-reinholdt",
+    "totalPRs": 1,
+    "mergedPRs": 1,
+    "totalIssues": 0
   },
   {
     "username": "dependabot[bot]",
