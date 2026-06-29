@@ -4,13 +4,13 @@
   },
   {
     "username": "kubevirt-bot",
-    "totalPRs": 865,
-    "mergedPRs": 771,
+    "totalPRs": 868,
+    "mergedPRs": 774,
     "totalIssues": 0
   },
   {
     "username": "dependabot[bot]",
-    "totalPRs": 339,
+    "totalPRs": 340,
     "mergedPRs": 141,
     "totalIssues": 0
   },
@@ -28,20 +28,20 @@
   },
   {
     "username": "nunnatsa",
-    "totalPRs": 107,
-    "mergedPRs": 99,
+    "totalPRs": 109,
+    "mergedPRs": 100,
     "totalIssues": 1
   },
   {
     "username": "akalenyu",
-    "totalPRs": 113,
+    "totalPRs": 117,
     "mergedPRs": 94,
     "totalIssues": 4
   },
   {
     "username": "hco-bot",
-    "totalPRs": 107,
-    "mergedPRs": 86,
+    "totalPRs": 109,
+    "mergedPRs": 89,
     "totalIssues": 0
   },
   {
@@ -64,19 +64,19 @@
   },
   {
     "username": "dasionov",
-    "totalPRs": 66,
+    "totalPRs": 67,
     "mergedPRs": 52,
-    "totalIssues": 6
+    "totalIssues": 7
   },
   {
     "username": "redhat-renovate-bot",
-    "totalPRs": 318,
+    "totalPRs": 324,
     "mergedPRs": 48,
     "totalIssues": 0
   },
   {
     "username": "oshoval",
-    "totalPRs": 90,
+    "totalPRs": 93,
     "mergedPRs": 46,
     "totalIssues": 7
   },
@@ -84,7 +84,7 @@
     "username": "Acedus",
     "totalPRs": 57,
     "mergedPRs": 46,
-    "totalIssues": 0
+    "totalIssues": 1
   },
   {
     "username": "awels",
@@ -118,7 +118,7 @@
   },
   {
     "username": "RamLavi",
-    "totalPRs": 87,
+    "totalPRs": 88,
     "mergedPRs": 34,
     "totalIssues": 79
   },
@@ -148,7 +148,7 @@
   },
   {
     "username": "nirdothan",
-    "totalPRs": 44,
+    "totalPRs": 45,
     "mergedPRs": 26,
     "totalIssues": 3
   },
@@ -172,7 +172,7 @@
   },
   {
     "username": "iholder101",
-    "totalPRs": 30,
+    "totalPRs": 32,
     "mergedPRs": 20,
     "totalIssues": 9
   },
@@ -303,13 +303,13 @@
     "totalIssues": 7
   },
   {
-    "username": "ShellyKa13",
-    "totalPRs": 12,
+    "username": "github-actions[bot]",
+    "totalPRs": 13,
     "mergedPRs": 11,
     "totalIssues": 0
   },
   {
-    "username": "github-actions[bot]",
+    "username": "ShellyKa13",
     "totalPRs": 12,
     "mergedPRs": 11,
     "totalIssues": 0
@@ -364,7 +364,7 @@
   },
   {
     "username": "Davo911",
-    "totalPRs": 10,
+    "totalPRs": 11,
     "mergedPRs": 8,
     "totalIssues": 3
   },
@@ -474,7 +474,7 @@
     "username": "vladikr",
     "totalPRs": 9,
     "mergedPRs": 3,
-    "totalIssues": 0
+    "totalIssues": 1
   },
   {
     "username": "Hazanel",
@@ -609,14 +609,14 @@
     "totalIssues": 0
   },
   {
-    "username": "Shreesha001",
+    "username": "Vaivaswat2244",
     "totalPRs": 6,
     "mergedPRs": 1,
-    "totalIssues": 0
+    "totalIssues": 1
   },
   {
-    "username": "Vaivaswat2244",
-    "totalPRs": 5,
+    "username": "Shreesha001",
+    "totalPRs": 6,
     "mergedPRs": 1,
     "totalIssues": 0
   },
@@ -636,7 +636,7 @@
     "username": "alancaldelas",
     "totalPRs": 4,
     "mergedPRs": 1,
-    "totalIssues": 0
+    "totalIssues": 1
   },
   {
     "username": "nertpinx",
@@ -1131,12 +1131,6 @@
     "totalIssues": 0
   },
   {
-    "username": "sivasubramanian95",
-    "totalPRs": 1,
-    "mergedPRs": 0,
-    "totalIssues": 0
-  },
-  {
     "username": "pthuriot-corti",
     "totalPRs": 1,
     "mergedPRs": 0,
@@ -1144,6 +1138,12 @@
   },
   {
     "username": "nocturo",
+    "totalPRs": 1,
+    "mergedPRs": 0,
+    "totalIssues": 0
+  },
+  {
+    "username": "sivasubramanian95",
     "totalPRs": 1,
     "mergedPRs": 0,
     "totalIssues": 0
@@ -1582,6 +1582,12 @@
   },
   {
     "username": "mihaitanasedt",
+    "totalPRs": 0,
+    "mergedPRs": 0,
+    "totalIssues": 1
+  },
+  {
+    "username": "Danielsio",
     "totalPRs": 0,
     "mergedPRs": 0,
     "totalIssues": 1
