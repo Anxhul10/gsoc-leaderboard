@@ -37,7 +37,9 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.PERSONAL_GITHUB_TOKEN }}
           JOB_TYPE: ${{ github.event.inputs.job_type || 'regular' }}
-        run: node .github/scripts/get-contributors-data.js
+        run: | 
+          node .github/scripts/get-contributors-data.js
+          node .github/scripts/videolan.js
 
       - name: Commit and Push changes
         run: |
