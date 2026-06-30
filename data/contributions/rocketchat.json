@@ -5,7 +5,7 @@
   {
     "username": "diegolmello",
     "totalPRs": 261,
-    "mergedPRs": 198,
+    "mergedPRs": 199,
     "totalIssues": 4
   },
   {
@@ -16,13 +16,13 @@
   },
   {
     "username": "ggazzo",
-    "totalPRs": 182,
+    "totalPRs": 185,
     "mergedPRs": 125,
     "totalIssues": 2
   },
   {
     "username": "KevLehman",
-    "totalPRs": 117,
+    "totalPRs": 119,
     "mergedPRs": 96,
     "totalIssues": 0
   },
@@ -33,21 +33,21 @@
     "totalIssues": 0
   },
   {
+    "username": "dependabot[bot]",
+    "totalPRs": 317,
+    "mergedPRs": 87,
+    "totalIssues": 0
+  },
+  {
     "username": "julio-rocketchat",
     "totalPRs": 97,
     "mergedPRs": 87,
     "totalIssues": 0
   },
   {
-    "username": "dependabot[bot]",
-    "totalPRs": 313,
-    "mergedPRs": 86,
-    "totalIssues": 0
-  },
-  {
     "username": "jeanfbrito",
-    "totalPRs": 100,
-    "mergedPRs": 67,
+    "totalPRs": 101,
+    "mergedPRs": 68,
     "totalIssues": 1
   },
   {
@@ -58,19 +58,19 @@
   },
   {
     "username": "Rohit3523",
-    "totalPRs": 75,
+    "totalPRs": 76,
     "mergedPRs": 52,
     "totalIssues": 0
   },
   {
     "username": "sampaiodiego",
-    "totalPRs": 61,
-    "mergedPRs": 49,
+    "totalPRs": 62,
+    "mergedPRs": 51,
     "totalIssues": 1
   },
   {
     "username": "dougfabris",
-    "totalPRs": 53,
+    "totalPRs": 54,
     "mergedPRs": 47,
     "totalIssues": 0
   },
@@ -88,14 +88,14 @@
   },
   {
     "username": "ricardogarim",
-    "totalPRs": 57,
+    "totalPRs": 59,
     "mergedPRs": 42,
     "totalIssues": 0
   },
   {
     "username": "nazabucciarelli",
-    "totalPRs": 52,
-    "mergedPRs": 39,
+    "totalPRs": 54,
+    "mergedPRs": 40,
     "totalIssues": 0
   },
   {
@@ -112,9 +112,15 @@
   },
   {
     "username": "d-gubert",
-    "totalPRs": 52,
+    "totalPRs": 53,
     "mergedPRs": 32,
     "totalIssues": 0
+  },
+  {
+    "username": "github-actions[bot]",
+    "totalPRs": 31,
+    "mergedPRs": 29,
+    "totalIssues": 12
   },
   {
     "username": "yash-rajpal",
@@ -123,21 +129,15 @@
     "totalIssues": 0
   },
   {
-    "username": "github-actions[bot]",
-    "totalPRs": 31,
-    "mergedPRs": 28,
-    "totalIssues": 12
-  },
-  {
     "username": "cardoso",
-    "totalPRs": 53,
+    "totalPRs": 54,
     "mergedPRs": 25,
     "totalIssues": 0
   },
   {
     "username": "MartinSchoeler",
-    "totalPRs": 35,
-    "mergedPRs": 24,
+    "totalPRs": 36,
+    "mergedPRs": 25,
     "totalIssues": 2
   },
   {
@@ -177,20 +177,20 @@
     "totalIssues": 0
   },
   {
+    "username": "not-meet",
+    "totalPRs": 23,
+    "mergedPRs": 16,
+    "totalIssues": 18
+  },
+  {
     "username": "dodaa08",
     "totalPRs": 42,
     "mergedPRs": 15,
     "totalIssues": 14
   },
   {
-    "username": "not-meet",
-    "totalPRs": 23,
-    "mergedPRs": 15,
-    "totalIssues": 18
-  },
-  {
     "username": "aleksandernsilva",
-    "totalPRs": 27,
+    "totalPRs": 28,
     "mergedPRs": 12,
     "totalIssues": 0
   },
@@ -202,7 +202,7 @@
   },
   {
     "username": "lingohub[bot]",
-    "totalPRs": 71,
+    "totalPRs": 72,
     "mergedPRs": 11,
     "totalIssues": 0
   },
@@ -1731,12 +1731,6 @@
     "totalIssues": 0
   },
   {
-    "username": "bhageshsharma777",
-    "totalPRs": 1,
-    "mergedPRs": 0,
-    "totalIssues": 0
-  },
-  {
     "username": "somaz94",
     "totalPRs": 1,
     "mergedPRs": 0,
@@ -1744,6 +1738,12 @@
   },
   {
     "username": "rissson",
+    "totalPRs": 1,
+    "mergedPRs": 0,
+    "totalIssues": 0
+  },
+  {
+    "username": "bhageshsharma777",
     "totalPRs": 1,
     "mergedPRs": 0,
     "totalIssues": 0
@@ -3051,12 +3051,6 @@
     "totalIssues": 1
   },
   {
-    "username": "alizahh-7",
-    "totalPRs": 0,
-    "mergedPRs": 0,
-    "totalIssues": 1
-  },
-  {
     "username": "max-levinzon",
     "totalPRs": 0,
     "mergedPRs": 0,
@@ -3081,7 +3075,25 @@
     "totalIssues": 1
   },
   {
+    "username": "alizahh-7",
+    "totalPRs": 0,
+    "mergedPRs": 0,
+    "totalIssues": 1
+  },
+  {
     "username": "anushkakedari",
+    "totalPRs": 0,
+    "mergedPRs": 0,
+    "totalIssues": 1
+  },
+  {
+    "username": "engelgabriel",
+    "totalPRs": 0,
+    "mergedPRs": 0,
+    "totalIssues": 1
+  },
+  {
+    "username": "grape9292",
     "totalPRs": 0,
     "mergedPRs": 0,
     "totalIssues": 1
@@ -3916,6 +3928,12 @@
   },
   {
     "username": "Famku",
+    "totalPRs": 0,
+    "mergedPRs": 0,
+    "totalIssues": 1
+  },
+  {
+    "username": "fred-gb",
     "totalPRs": 0,
     "mergedPRs": 0,
     "totalIssues": 1
