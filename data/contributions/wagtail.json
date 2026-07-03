@@ -41,12 +41,18 @@
   {
     "username": "Raghaddahi",
     "totalPRs": 23,
-    "mergedPRs": 8,
+    "mergedPRs": 9,
     "totalIssues": 0
   },
   {
     "username": "renovate[bot]",
     "totalPRs": 18,
+    "mergedPRs": 7,
+    "totalIssues": 1
+  },
+  {
+    "username": "aryanyk",
+    "totalPRs": 10,
     "mergedPRs": 7,
     "totalIssues": 1
   },
@@ -76,12 +82,6 @@
   },
   {
     "username": "Stormheg",
-    "totalPRs": 10,
-    "mergedPRs": 5,
-    "totalIssues": 1
-  },
-  {
-    "username": "aryanyk",
     "totalPRs": 10,
     "mergedPRs": 5,
     "totalIssues": 1
@@ -1017,6 +1017,12 @@
     "totalIssues": 0
   },
   {
+    "username": "nedagilanian",
+    "totalPRs": 2,
+    "mergedPRs": 0,
+    "totalIssues": 0
+  },
+  {
     "username": "alsyx",
     "totalPRs": 2,
     "mergedPRs": 0,
@@ -1191,6 +1197,12 @@
     "totalIssues": 1
   },
   {
+    "username": "As-ajay06",
+    "totalPRs": 1,
+    "mergedPRs": 0,
+    "totalIssues": 1
+  },
+  {
     "username": "botbikamordehai2-sketch",
     "totalPRs": 1,
     "mergedPRs": 0,
@@ -1245,16 +1257,10 @@
     "totalIssues": 0
   },
   {
-    "username": "RheagalFire",
+    "username": "Pr241singh",
     "totalPRs": 1,
     "mergedPRs": 0,
     "totalIssues": 0
-  },
-  {
-    "username": "JNaftali",
-    "totalPRs": 1,
-    "mergedPRs": 0,
-    "totalIssues": 2
   },
   {
     "username": "blac-byte",
@@ -1671,10 +1677,16 @@
     "totalIssues": 1
   },
   {
-    "username": "dimalavrishin",
+    "username": "RheagalFire",
     "totalPRs": 1,
     "mergedPRs": 0,
-    "totalIssues": 1
+    "totalIssues": 0
+  },
+  {
+    "username": "JNaftali",
+    "totalPRs": 1,
+    "mergedPRs": 0,
+    "totalIssues": 2
   },
   {
     "username": "socketz",
@@ -1705,6 +1717,12 @@
     "totalPRs": 1,
     "mergedPRs": 0,
     "totalIssues": 0
+  },
+  {
+    "username": "dimalavrishin",
+    "totalPRs": 1,
+    "mergedPRs": 0,
+    "totalIssues": 1
   },
   {
     "username": "neilbulloch",
@@ -1837,12 +1855,6 @@
     "totalPRs": 0,
     "mergedPRs": 0,
     "totalIssues": 6
-  },
-  {
-    "username": "bjorn-fabrique",
-    "totalPRs": 0,
-    "mergedPRs": 0,
-    "totalIssues": 1
   },
   {
     "username": "enzedonline",
@@ -2152,6 +2164,12 @@
   },
   {
     "username": "Bhupendra-glitch",
+    "totalPRs": 0,
+    "mergedPRs": 0,
+    "totalIssues": 1
+  },
+  {
+    "username": "bjorn-fabrique",
     "totalPRs": 0,
     "mergedPRs": 0,
     "totalIssues": 1

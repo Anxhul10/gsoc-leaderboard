@@ -4,15 +4,21 @@
   },
   {
     "username": "JoeZiminski",
-    "totalPRs": 64,
-    "mergedPRs": 50,
+    "totalPRs": 65,
+    "mergedPRs": 51,
     "totalIssues": 18
   },
   {
     "username": "niksirbi",
-    "totalPRs": 58,
-    "mergedPRs": 49,
+    "totalPRs": 59,
+    "mergedPRs": 51,
     "totalIssues": 36
+  },
+  {
+    "username": "dependabot[bot]",
+    "totalPRs": 70,
+    "mergedPRs": 46,
+    "totalIssues": 0
   },
   {
     "username": "pre-commit-ci[bot]",
@@ -22,27 +28,21 @@
   },
   {
     "username": "adamltyson",
-    "totalPRs": 46,
-    "mergedPRs": 41,
+    "totalPRs": 47,
+    "mergedPRs": 42,
     "totalIssues": 37
   },
   {
-    "username": "dependabot[bot]",
-    "totalPRs": 69,
-    "mergedPRs": 31,
-    "totalIssues": 0
-  },
-  {
     "username": "lochhh",
-    "totalPRs": 36,
+    "totalPRs": 37,
     "mergedPRs": 29,
     "totalIssues": 22
   },
   {
     "username": "K-Meech",
-    "totalPRs": 16,
-    "mergedPRs": 15,
-    "totalIssues": 32
+    "totalPRs": 17,
+    "mergedPRs": 16,
+    "totalIssues": 33
   },
   {
     "username": "PolarBean",
@@ -71,7 +71,7 @@
   {
     "username": "sfmig",
     "totalPRs": 11,
-    "mergedPRs": 8,
+    "mergedPRs": 9,
     "totalIssues": 16
   },
   {
@@ -148,7 +148,7 @@
   },
   {
     "username": "vybhav72954",
-    "totalPRs": 2,
+    "totalPRs": 3,
     "mergedPRs": 2,
     "totalIssues": 5
   },
