@@ -4,9 +4,9 @@
   },
   {
     "username": "marmarek",
-    "totalPRs": 106,
+    "totalPRs": 108,
     "mergedPRs": 90,
-    "totalIssues": 49
+    "totalIssues": 51
   },
   {
     "username": "ben-grande",
@@ -279,7 +279,7 @@
     "totalIssues": 1
   },
   {
-    "username": "alimirjamali",
+    "username": "ehanoc",
     "totalPRs": 1,
     "mergedPRs": 1,
     "totalIssues": 0
@@ -291,7 +291,7 @@
     "totalIssues": 1
   },
   {
-    "username": "ehanoc",
+    "username": "alimirjamali",
     "totalPRs": 1,
     "mergedPRs": 1,
     "totalIssues": 0
@@ -301,6 +301,12 @@
     "totalPRs": 1,
     "mergedPRs": 1,
     "totalIssues": 2
+  },
+  {
+    "username": "ndmalc",
+    "totalPRs": 1,
+    "mergedPRs": 1,
+    "totalIssues": 3
   },
   {
     "username": "chaimae098",
@@ -319,12 +325,6 @@
     "totalPRs": 1,
     "mergedPRs": 1,
     "totalIssues": 0
-  },
-  {
-    "username": "ndmalc",
-    "totalPRs": 1,
-    "mergedPRs": 1,
-    "totalIssues": 3
   },
   {
     "username": "kennethrrosen",
@@ -453,13 +453,13 @@
     "totalIssues": 0
   },
   {
-    "username": "RohanMithari",
+    "username": "techge",
     "totalPRs": 1,
     "mergedPRs": 0,
     "totalIssues": 0
   },
   {
-    "username": "eaon",
+    "username": "rishi-jat",
     "totalPRs": 1,
     "mergedPRs": 0,
     "totalIssues": 0
@@ -477,13 +477,13 @@
     "totalIssues": 0
   },
   {
-    "username": "techge",
+    "username": "RohanMithari",
     "totalPRs": 1,
     "mergedPRs": 0,
     "totalIssues": 0
   },
   {
-    "username": "rishi-jat",
+    "username": "eaon",
     "totalPRs": 1,
     "mergedPRs": 0,
     "totalIssues": 0
@@ -496,6 +496,12 @@
   },
   {
     "username": "amrosia",
+    "totalPRs": 1,
+    "mergedPRs": 0,
+    "totalIssues": 0
+  },
+  {
+    "username": "accek-itl",
     "totalPRs": 1,
     "mergedPRs": 0,
     "totalIssues": 0
@@ -520,12 +526,6 @@
   },
   {
     "username": "suhr25",
-    "totalPRs": 1,
-    "mergedPRs": 0,
-    "totalIssues": 0
-  },
-  {
-    "username": "accek-itl",
     "totalPRs": 1,
     "mergedPRs": 0,
     "totalIssues": 0
@@ -1047,15 +1047,15 @@
     "totalIssues": 1
   },
   {
+    "username": "qubesos-bot",
+    "totalPRs": 0,
+    "mergedPRs": 0,
+    "totalIssues": 396
+  },
+  {
     "username": "qubesos-secondary-bot",
     "totalPRs": 0,
     "mergedPRs": 0,
     "totalIssues": 25
-  },
-  {
-    "username": "qubesos-bot",
-    "totalPRs": 0,
-    "mergedPRs": 0,
-    "totalIssues": 395
   }
 ]
