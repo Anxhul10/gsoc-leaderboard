@@ -10,8 +10,8 @@
   },
   {
     "username": "philschmid",
-    "totalPRs": 21,
-    "mergedPRs": 21,
+    "totalPRs": 23,
+    "mergedPRs": 23,
     "totalIssues": 0
   },
   {
@@ -141,6 +141,18 @@
     "totalIssues": 0
   },
   {
+    "username": "holtskinner",
+    "totalPRs": 1,
+    "mergedPRs": 1,
+    "totalIssues": 0
+  },
+  {
+    "username": "glaforge",
+    "totalPRs": 1,
+    "mergedPRs": 1,
+    "totalIssues": 0
+  },
+  {
     "username": "PaulTR",
     "totalPRs": 1,
     "mergedPRs": 1,
@@ -154,18 +166,6 @@
   },
   {
     "username": "MFCo",
-    "totalPRs": 1,
-    "mergedPRs": 1,
-    "totalIssues": 0
-  },
-  {
-    "username": "holtskinner",
-    "totalPRs": 1,
-    "mergedPRs": 1,
-    "totalIssues": 0
-  },
-  {
-    "username": "glaforge",
     "totalPRs": 1,
     "mergedPRs": 1,
     "totalIssues": 0
@@ -693,6 +693,12 @@
     "totalIssues": 1
   },
   {
+    "username": "Gertie01",
+    "totalPRs": 0,
+    "mergedPRs": 0,
+    "totalIssues": 1
+  },
+  {
     "username": "shrikantlohiya",
     "totalPRs": 0,
     "mergedPRs": 0,
@@ -715,18 +721,6 @@
     "totalPRs": 0,
     "mergedPRs": 0,
     "totalIssues": 1
-  },
-  {
-    "username": "Gertie01",
-    "totalPRs": 0,
-    "mergedPRs": 0,
-    "totalIssues": 1
-  },
-  {
-    "username": "github-actions[bot]",
-    "totalPRs": 0,
-    "mergedPRs": 0,
-    "totalIssues": 117
   },
   {
     "username": "tklk610",
@@ -825,10 +819,10 @@
     "totalIssues": 1
   },
   {
-    "username": "robomaniac",
+    "username": "github-actions[bot]",
     "totalPRs": 0,
     "mergedPRs": 0,
-    "totalIssues": 1
+    "totalIssues": 118
   },
   {
     "username": "kotharipujan",
@@ -844,6 +838,12 @@
   },
   {
     "username": "suemitranba-hub",
+    "totalPRs": 0,
+    "mergedPRs": 0,
+    "totalIssues": 1
+  },
+  {
+    "username": "robomaniac",
     "totalPRs": 0,
     "mergedPRs": 0,
     "totalIssues": 1
