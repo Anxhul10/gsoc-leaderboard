@@ -4,14 +4,14 @@
   },
   {
     "username": "dependabot[bot]",
-    "totalPRs": 581,
-    "mergedPRs": 277,
+    "totalPRs": 585,
+    "mergedPRs": 279,
     "totalIssues": 0
   },
   {
     "username": "aleksandr-mokrov",
-    "totalPRs": 146,
-    "mergedPRs": 144,
+    "totalPRs": 150,
+    "mergedPRs": 148,
     "totalIssues": 0
   },
   {
@@ -22,26 +22,26 @@
   },
   {
     "username": "as-suvorov",
-    "totalPRs": 80,
-    "mergedPRs": 69,
+    "totalPRs": 85,
+    "mergedPRs": 70,
     "totalIssues": 0
   },
   {
     "username": "dtrawins",
-    "totalPRs": 76,
-    "mergedPRs": 64,
+    "totalPRs": 77,
+    "mergedPRs": 66,
     "totalIssues": 0
   },
   {
     "username": "dkalinowski",
-    "totalPRs": 72,
+    "totalPRs": 73,
     "mergedPRs": 55,
     "totalIssues": 0
   },
   {
     "username": "sbalandi",
     "totalPRs": 54,
-    "mergedPRs": 45,
+    "mergedPRs": 46,
     "totalIssues": 1
   },
   {
@@ -70,7 +70,7 @@
   },
   {
     "username": "mzegla",
-    "totalPRs": 39,
+    "totalPRs": 40,
     "mergedPRs": 32,
     "totalIssues": 0
   },
@@ -108,7 +108,7 @@
     "username": "maxxgx",
     "totalPRs": 24,
     "mergedPRs": 21,
-    "totalIssues": 1
+    "totalIssues": 2
   },
   {
     "username": "yatarkan",
@@ -153,16 +153,16 @@
     "totalIssues": 0
   },
   {
+    "username": "sovrasov",
+    "totalPRs": 15,
+    "mergedPRs": 15,
+    "totalIssues": 0
+  },
+  {
     "username": "sgonorov",
     "totalPRs": 24,
     "mergedPRs": 14,
     "totalIssues": 3
-  },
-  {
-    "username": "sovrasov",
-    "totalPRs": 15,
-    "mergedPRs": 14,
-    "totalIssues": 0
   },
   {
     "username": "ov-renovate[bot]",
@@ -255,6 +255,12 @@
     "totalIssues": 0
   },
   {
+    "username": "p-wysocki",
+    "totalPRs": 7,
+    "mergedPRs": 6,
+    "totalIssues": 0
+  },
+  {
     "username": "peterchen-intel",
     "totalPRs": 14,
     "mergedPRs": 5,
@@ -309,6 +315,12 @@
     "totalIssues": 0
   },
   {
+    "username": "exzile",
+    "totalPRs": 20,
+    "mergedPRs": 3,
+    "totalIssues": 6
+  },
+  {
     "username": "allnes",
     "totalPRs": 14,
     "mergedPRs": 3,
@@ -329,6 +341,12 @@
   {
     "username": "andreyanufr",
     "totalPRs": 6,
+    "mergedPRs": 3,
+    "totalIssues": 0
+  },
+  {
+    "username": "jkoniusz",
+    "totalPRs": 5,
     "mergedPRs": 3,
     "totalIssues": 0
   },
@@ -387,12 +405,6 @@
     "totalIssues": 0
   },
   {
-    "username": "exzile",
-    "totalPRs": 19,
-    "mergedPRs": 2,
-    "totalIssues": 5
-  },
-  {
     "username": "uvv-01",
     "totalPRs": 6,
     "mergedPRs": 2,
@@ -418,12 +430,6 @@
   },
   {
     "username": "AlexanderKalistratov",
-    "totalPRs": 3,
-    "mergedPRs": 2,
-    "totalIssues": 0
-  },
-  {
-    "username": "p-wysocki",
     "totalPRs": 3,
     "mergedPRs": 2,
     "totalIssues": 0
@@ -507,19 +513,13 @@
     "totalIssues": 0
   },
   {
-    "username": "jkoniusz",
-    "totalPRs": 3,
-    "mergedPRs": 1,
-    "totalIssues": 0
-  },
-  {
     "username": "Yash-Vijay29",
     "totalPRs": 3,
     "mergedPRs": 1,
     "totalIssues": 3
   },
   {
-    "username": "sfatimar",
+    "username": "wkobielx",
     "totalPRs": 3,
     "mergedPRs": 1,
     "totalIssues": 0
@@ -537,7 +537,19 @@
     "totalIssues": 0
   },
   {
+    "username": "sfatimar",
+    "totalPRs": 3,
+    "mergedPRs": 1,
+    "totalIssues": 0
+  },
+  {
     "username": "ljaljushkin",
+    "totalPRs": 2,
+    "mergedPRs": 1,
+    "totalIssues": 0
+  },
+  {
+    "username": "bumbosiepsak",
     "totalPRs": 2,
     "mergedPRs": 1,
     "totalIssues": 0
@@ -555,25 +567,19 @@
     "totalIssues": 0
   },
   {
-    "username": "wkobielx",
-    "totalPRs": 2,
-    "mergedPRs": 1,
-    "totalIssues": 0
-  },
-  {
     "username": "padatta",
     "totalPRs": 2,
     "mergedPRs": 1,
     "totalIssues": 0
   },
   {
-    "username": "Jermalk",
+    "username": "artanokhov",
     "totalPRs": 1,
     "mergedPRs": 1,
     "totalIssues": 0
   },
   {
-    "username": "artanokhov",
+    "username": "Jermalk",
     "totalPRs": 1,
     "mergedPRs": 1,
     "totalIssues": 0
@@ -669,19 +675,13 @@
     "totalIssues": 0
   },
   {
-    "username": "bumbosiepsak",
+    "username": "rv355",
     "totalPRs": 1,
     "mergedPRs": 1,
     "totalIssues": 0
   },
   {
     "username": "sixers",
-    "totalPRs": 1,
-    "mergedPRs": 1,
-    "totalIssues": 0
-  },
-  {
-    "username": "rv355",
     "totalPRs": 1,
     "mergedPRs": 1,
     "totalIssues": 0
@@ -703,6 +703,18 @@
     "totalPRs": 1,
     "mergedPRs": 1,
     "totalIssues": 0
+  },
+  {
+    "username": "pkowalczint",
+    "totalPRs": 1,
+    "mergedPRs": 1,
+    "totalIssues": 0
+  },
+  {
+    "username": "pwolnows",
+    "totalPRs": 1,
+    "mergedPRs": 1,
+    "totalIssues": 1
   },
   {
     "username": "amul1umt",
@@ -772,6 +784,12 @@
   },
   {
     "username": "dhandhalyabhavik",
+    "totalPRs": 3,
+    "mergedPRs": 0,
+    "totalIssues": 0
+  },
+  {
+    "username": "InfoSage05",
     "totalPRs": 3,
     "mergedPRs": 0,
     "totalIssues": 0
@@ -903,6 +921,12 @@
     "totalIssues": 0
   },
   {
+    "username": "szd5654125",
+    "totalPRs": 2,
+    "mergedPRs": 0,
+    "totalIssues": 0
+  },
+  {
     "username": "LuciferDono",
     "totalPRs": 2,
     "mergedPRs": 0,
@@ -919,6 +943,12 @@
     "totalPRs": 1,
     "mergedPRs": 0,
     "totalIssues": 2
+  },
+  {
+    "username": "nikolaygorb",
+    "totalPRs": 1,
+    "mergedPRs": 0,
+    "totalIssues": 0
   },
   {
     "username": "ShaojieZhuIntel",
@@ -1012,6 +1042,12 @@
   },
   {
     "username": "Dryoung95",
+    "totalPRs": 1,
+    "mergedPRs": 0,
+    "totalIssues": 0
+  },
+  {
+    "username": "shampson-intel",
     "totalPRs": 1,
     "mergedPRs": 0,
     "totalIssues": 0
@@ -1245,12 +1281,6 @@
     "totalIssues": 0
   },
   {
-    "username": "szd5654125",
-    "totalPRs": 1,
-    "mergedPRs": 0,
-    "totalIssues": 0
-  },
-  {
     "username": "Ilesh-Dhall",
     "totalPRs": 1,
     "mergedPRs": 0,
@@ -1267,6 +1297,12 @@
     "totalPRs": 1,
     "mergedPRs": 0,
     "totalIssues": 0
+  },
+  {
+    "username": "ffaahhimm",
+    "totalPRs": 1,
+    "mergedPRs": 0,
+    "totalIssues": 1
   },
   {
     "username": "zhuo-yoyowz",
@@ -1671,12 +1707,6 @@
     "totalIssues": 1
   },
   {
-    "username": "ffaahhimm",
-    "totalPRs": 0,
-    "mergedPRs": 0,
-    "totalIssues": 1
-  },
-  {
     "username": "Ontonous-LAB",
     "totalPRs": 0,
     "mergedPRs": 0,
@@ -1708,12 +1738,6 @@
   },
   {
     "username": "AlbertvanHouten",
-    "totalPRs": 0,
-    "mergedPRs": 0,
-    "totalIssues": 1
-  },
-  {
-    "username": "pwolnows",
     "totalPRs": 0,
     "mergedPRs": 0,
     "totalIssues": 1
