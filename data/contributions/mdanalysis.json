@@ -5,26 +5,32 @@
   {
     "username": "ojeda-e",
     "totalPRs": 45,
-    "mergedPRs": 38,
-    "totalIssues": 40
+    "mergedPRs": 39,
+    "totalIssues": 41
+  },
+  {
+    "username": "PardhavMaradani",
+    "totalPRs": 30,
+    "mergedPRs": 27,
+    "totalIssues": 2
   },
   {
     "username": "orbeckst",
     "totalPRs": 32,
     "mergedPRs": 24,
-    "totalIssues": 46
+    "totalIssues": 47
+  },
+  {
+    "username": "dependabot[bot]",
+    "totalPRs": 26,
+    "mergedPRs": 19,
+    "totalIssues": 0
   },
   {
     "username": "IAlibay",
     "totalPRs": 20,
     "mergedPRs": 18,
     "totalIssues": 5
-  },
-  {
-    "username": "dependabot[bot]",
-    "totalPRs": 19,
-    "mergedPRs": 12,
-    "totalIssues": 0
   },
   {
     "username": "jennaswa",
@@ -43,12 +49,6 @@
     "totalPRs": 4,
     "mergedPRs": 4,
     "totalIssues": 0
-  },
-  {
-    "username": "PardhavMaradani",
-    "totalPRs": 5,
-    "mergedPRs": 3,
-    "totalIssues": 2
   },
   {
     "username": "spyke7",
@@ -439,6 +439,12 @@
     "totalPRs": 1,
     "mergedPRs": 0,
     "totalIssues": 0
+  },
+  {
+    "username": "amruthesht",
+    "totalPRs": 0,
+    "mergedPRs": 0,
+    "totalIssues": 2
   },
   {
     "username": "github-actions[bot]",
