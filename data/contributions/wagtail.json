@@ -10,7 +10,7 @@
   },
   {
     "username": "dependabot[bot]",
-    "totalPRs": 46,
+    "totalPRs": 50,
     "mergedPRs": 36,
     "totalIssues": 0
   },
@@ -46,7 +46,7 @@
   },
   {
     "username": "renovate[bot]",
-    "totalPRs": 28,
+    "totalPRs": 30,
     "mergedPRs": 10,
     "totalIssues": 2
   },
@@ -58,13 +58,13 @@
   },
   {
     "username": "Stormheg",
-    "totalPRs": 14,
+    "totalPRs": 15,
     "mergedPRs": 7,
     "totalIssues": 1
   },
   {
     "username": "Copilot",
-    "totalPRs": 10,
+    "totalPRs": 11,
     "mergedPRs": 7,
     "totalIssues": 0
   },
@@ -525,6 +525,12 @@
     "totalIssues": 1
   },
   {
+    "username": "hanumanraj07",
+    "totalPRs": 2,
+    "mergedPRs": 1,
+    "totalIssues": 0
+  },
+  {
     "username": "MrButtCode",
     "totalPRs": 2,
     "mergedPRs": 1,
@@ -598,12 +604,6 @@
   },
   {
     "username": "jayanthwritescode",
-    "totalPRs": 1,
-    "mergedPRs": 1,
-    "totalIssues": 0
-  },
-  {
-    "username": "hanumanraj07",
     "totalPRs": 1,
     "mergedPRs": 1,
     "totalIssues": 0
@@ -1761,16 +1761,16 @@
     "totalIssues": 0
   },
   {
-    "username": "dimalavrishin",
-    "totalPRs": 1,
-    "mergedPRs": 0,
-    "totalIssues": 1
-  },
-  {
     "username": "wahaj-kh",
     "totalPRs": 1,
     "mergedPRs": 0,
     "totalIssues": 0
+  },
+  {
+    "username": "dimalavrishin",
+    "totalPRs": 1,
+    "mergedPRs": 0,
+    "totalIssues": 1
   },
   {
     "username": "neilbulloch",
