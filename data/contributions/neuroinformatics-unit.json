@@ -4,9 +4,15 @@
   },
   {
     "username": "JoeZiminski",
-    "totalPRs": 65,
+    "totalPRs": 66,
     "mergedPRs": 53,
     "totalIssues": 20
+  },
+  {
+    "username": "pre-commit-ci[bot]",
+    "totalPRs": 59,
+    "mergedPRs": 52,
+    "totalIssues": 0
   },
   {
     "username": "niksirbi",
@@ -15,14 +21,8 @@
     "totalIssues": 36
   },
   {
-    "username": "pre-commit-ci[bot]",
-    "totalPRs": 59,
-    "mergedPRs": 51,
-    "totalIssues": 0
-  },
-  {
     "username": "dependabot[bot]",
-    "totalPRs": 77,
+    "totalPRs": 78,
     "mergedPRs": 48,
     "totalIssues": 0
   },
@@ -40,7 +40,7 @@
   },
   {
     "username": "K-Meech",
-    "totalPRs": 17,
+    "totalPRs": 18,
     "mergedPRs": 17,
     "totalIssues": 45
   },
@@ -60,7 +60,7 @@
     "username": "alessandrofelder",
     "totalPRs": 11,
     "mergedPRs": 11,
-    "totalIssues": 19
+    "totalIssues": 21
   },
   {
     "username": "IgorTatarnikov",
@@ -357,18 +357,6 @@
     "totalIssues": 0
   },
   {
-    "username": "zhubonan",
-    "totalPRs": 1,
-    "mergedPRs": 0,
-    "totalIssues": 0
-  },
-  {
-    "username": "Somsubhra-Nandi",
-    "totalPRs": 1,
-    "mergedPRs": 0,
-    "totalIssues": 0
-  },
-  {
     "username": "Nicks-19",
     "totalPRs": 1,
     "mergedPRs": 0,
@@ -379,6 +367,18 @@
     "totalPRs": 1,
     "mergedPRs": 0,
     "totalIssues": 1
+  },
+  {
+    "username": "zhubonan",
+    "totalPRs": 1,
+    "mergedPRs": 0,
+    "totalIssues": 0
+  },
+  {
+    "username": "Somsubhra-Nandi",
+    "totalPRs": 1,
+    "mergedPRs": 0,
+    "totalIssues": 0
   },
   {
     "username": "Konseptt",
