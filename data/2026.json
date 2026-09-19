@@ -1627,43 +1627,6 @@
     ]
   },
   {
-    "name": "Apache Software Foundation",
-    "slug": "apache-software-foundation",
-    "logo_url": "https://summerofcode.withgoogle.com/media/org/apache-software-foundation/hq22fwtmvdfjnsh9-360.png",
-    "website_url": "https://apache.org",
-    "tagline": "Open source software to the public free of charge",
-    "license": "Apache-2.0",
-    "categories": ["Web", "Other"],
-    "contributor_guidance_url": "https://community.apache.org/gsoc/",
-    "description": "The Foundation provides an established framework for intellectual property and financial contributions that simultaneously limits contributors potential legal exposure. Through a collaborative and meritocratic development process, Apache projects deliver enterprise-grade, freely available software products that attract large communities of users. The pragmatic Apache License makes it easy for all users, commercial and individual, to deploy Apache products.",
-    "tech_tags": ["c", "java", "c++"],
-    "topic_tags": ["big data", "cloud", "libraries", "other"],
-    "contact_links": [
-      {
-        "name": "mailingList",
-        "value": "http://apache.org/foundation/mailinglists.html"
-      },
-      {
-        "name": "twitter",
-        "value": "https://twitter.com/theasf"
-      }
-    ],
-    "source_code": "https://github.com/apache",
-    "ideas_link": "https://s.apache.org/gsoc2026ideas",
-    "direct_comm_methods": [
-      {
-        "name": "mailingList",
-        "value": "http://apache.org/foundation/mailinglists.html"
-      }
-    ],
-    "social_comm_methods": [
-      {
-        "name": "twitter",
-        "value": "https://twitter.com/theasf"
-      }
-    ]
-  },
-  {
     "name": "Ruby",
     "slug": "ruby",
     "logo_url": "https://summerofcode.withgoogle.com/media/org/ruby/dc6i7iw8w39rktw1-360.png",
